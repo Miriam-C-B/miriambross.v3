@@ -121,54 +121,37 @@ textarea {
   /* NAV STYLES */
   
   /*nav bar*/
-  
- 
- 
-  /*dark-mode button */
-  .switch-container {
-    text-align: center;
-    padding-bottom: 2em;
+
+ .complete-nav-bar {
+    background-color: #2b2b2b; 
+    color:#b3d4fc;
     display: flex;
-    align-items: center;
-  }
-  
-  .switch-container p {
-    padding: 0 1em;
-  }
-  
-  .switch-container input {
-    height: 0;
-    width: 0;
-    opacity: 0;
-  }
-  
-  .switch {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
+    justify-content: space-between;
+ }
+ 
+  .nav-logo img {
     width: 70px;
-    height: 34px;
-    background-color: rgb(133, 205, 238);
-    border-radius: 34px;
-  }
-  
-  .ball {
-    position: absolute;
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    border-radius: 50%;
-    background-color: #166969;
-    transition: transform 0.2s ease-out;
-  }
-  
-  .ball.move-right {
-    -webkit-transform: translateX(34px);
-    -ms-transform: translateX(34px);
-    transform: translateX(34px);
+    height: auto;
+    margin: 0 50px;
   }
 
+  .nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    width: 30%;
+    margin: 0 15px;
+    padding: 0;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: #b3d4fc;
+    margin: 0.5em;
+  }
+
+  
   
 
 /* ==========================================================================
@@ -259,9 +242,26 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
+  .nav-list li a {
+    font-size: 0.7em;
+  }
 }
+
+@media only screen and (max-width: 360px) {
+  /* Style adjustments for viewports that meet the condition */
+  .complete-nav-bar {
+    justify-content: space-around;
+ }
+  
+  .nav-logo {
+    margin: 0 5px 0 5px;
+  }
+
+  .nav-logo img {
+    margin: 0 0 0 25px;
+  }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
