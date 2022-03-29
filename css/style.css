@@ -95,15 +95,24 @@ textarea {
   h1 {
     color: rgb(2, 2, 99);
     font-family: 'Merienda One', cursive;
+    margin-bottom: 2em;
   }
 
   h2 {
     color: rgb(2, 2, 99);
     font-family: 'Merienda One', cursive;
     font-size: 1em;
+    margin-bottom: 2em;
   }
 
   h3 {
+    color: rgb(2, 2, 99);
+    font-family: 'Merienda One', cursive;
+    font-size: 0.75em;
+    margin-bottom: 2em;
+  }
+
+  h4 {
     color: rgb(2, 2, 99);
     font-family: 'Merienda One', cursive;
     font-size: 0.5em;
@@ -152,7 +161,39 @@ textarea {
   }
 
   
-  
+  /* ===== BODY ======*/
+
+  /* home page body */
+
+  /* all projects summary site */
+  .cards {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card-title a {
+    text-decoration: none;
+    color:rgb(2, 2, 99);
+    margin-bottom: 2em;
+    line-height: 1.5em;
+  }
+
+  .card-button {
+    background-color:rgb(2, 2, 99);
+    border-radius: 5px;
+  }
+
+  .card-button a {
+      text-decoration: none;
+      color: #b3d4fc;
+      margin: 0.5em;
+  }
+
+  /* projects pages */
+
+  /* ===== FOOTER ====== */
 
 /* ==========================================================================
    Helper classes
