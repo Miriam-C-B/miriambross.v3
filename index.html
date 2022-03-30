@@ -42,7 +42,7 @@
 </head>
 
 <body class="container">
-  <header class="complete-nav-bar">
+  <header>
     <!--carousel images that change by themselves-->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
@@ -57,7 +57,7 @@
       <!--The slideshow-->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/australia-1.JPG" alt="beach on rottnest island" class="d-block w-100">
+          <img src="img/header-kr-movies.jpg" alt="Matrix matrix with movie titles" class="d-block w-100">
         </div>
         <div class="carousel-item">
           <img src="img/australia-2.JPG" alt="beach on rottnest island" class="d-block w-100">
@@ -82,38 +82,17 @@
 
     
     <!--navigation pane that sticks-->
-      <!--logo-->
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/MBperl.png" alt="Logo MB" style="width:40px;" class="rounded-pill"/>
-          </a>  
-          
-          <!--Dark mode button-->
-            <div class="switch-container">
-              <p>Dark</p>
-              <label for="toggle" class="switch">
-                <div class="ball"></div>
-              </label>
-              <input id="toggle" name="toggle" type="checkbox" />
-              <p>Light</p>
-            </div>
+      <!--navigation pane that sticks-->
+      <nav class="complete-nav-bar">
+        <!--logo-->
+        <a class="nav-logo" href="index.html"><img src="img/signature-fill.png" alt="Logo MB"/></a>  
 
-            <!--Hamburger menu button on small screens-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-          <!--link list-->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="pages/projects-index.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-              </ul>
-            </div>
-        </div>
-      </nav>
+        <!--link list-->
+            <ul class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pages/projects-index.html">Projects</a></li>
+            </ul>
+    </nav>
 
   </header>
 
