@@ -91,11 +91,14 @@ textarea {
     color: #2b2b2b;
     font-family: 'Libre Baskerville', serif !important;
   }
+  main {
+    padding: 20px 5px;
+  }
 
   h1 {
     color: rgb(2, 2, 99);
     font-family: 'Merienda One', cursive;
-    margin-bottom: 2em;
+    padding: 20px 0;
   }
 
   h2 {
@@ -198,7 +201,30 @@ textarea {
   /* projects pages */
 
   /* ===== FOOTER ====== */
+  footer {
+    background-color: #2b2b2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .social-icons {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+  }
+
+  .social-icons a i {
+    font-size: 2em;
+    color: #b3d4fc;
+    margin: 20px;
+  }
+
+  footer p {
+    color: #b3d4fc;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
