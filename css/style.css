@@ -201,8 +201,30 @@ textarea {
   /* projects pages */
 
   .last-line {
-    padding-bottom: 20px;
+    margin-bottom: 40px;
   }
+
+  .practiced,
+  .learned {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row wrap;
+  }
+
+  .practiced-list,
+  .learned-list {
+    margin-right: 30px;
+  }
+
+  .practiced img,
+  .learned img {
+    margin-right: 60px;
+    border: 3px solid  rgb(2, 2, 99);
+    padding: 10px;
+  }
+
+  
 
   /* ===== FOOTER ====== */
   footer {
@@ -341,6 +363,11 @@ textarea {
   .individual-cards {
     margin:10px 0;
     width: 90%;
+  }
+  .practiced img,
+  .learned img {
+    margin: 0;
+    padding: 1px;
   }
 
 @media print,
