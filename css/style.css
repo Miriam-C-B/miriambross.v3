@@ -200,6 +200,10 @@ textarea {
 
   /* projects pages */
 
+  .last-line {
+    padding-bottom: 20px;
+  }
+
   /* ===== FOOTER ====== */
   footer {
     background-color: rgb(2, 2, 99);
