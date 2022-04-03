@@ -105,14 +105,14 @@ textarea {
     color: rgb(2, 2, 99);
     font-family: 'Merienda One', cursive;
     font-size: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 20px;
   }
 
   h3 {
     color: rgb(2, 2, 99);
     font-family: 'Merienda One', cursive;
     font-size: 0.75em;
-    margin-bottom: 2em;
+    margin-bottom: 15px;
   }
 
   h4 {
@@ -204,24 +204,18 @@ textarea {
     margin-bottom: 20px;
   }
 
-  .practiced,
-  .learned {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-
   .practiced-list,
   .learned-list {
-    margin: 30px 30px 0 0;
+    margin: 30px 30px 30px 0;
+    padding: 10px;
   }
 
   .practiced img,
   .learned img {
-    margin-right: 60px;
+    margin: 0 60px 10px 10px;
     border: 3px solid  rgb(2, 2, 99);
     padding: 10px;
+    float: right;
   }
 
   
@@ -348,12 +342,18 @@ textarea {
   .practiced-list,
   .learned-list {
     margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
   }
+  
 
   .practiced img,
   .learned img {
     margin-right: 0;
     padding: 1px;
+    margin: 20px;
   }
 
 }
