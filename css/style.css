@@ -204,11 +204,13 @@ textarea {
     margin-bottom: 20px;
   }
 
+  .practiced,
   .learned {
     height: auto;
     margin-top: 20px;
   }
 
+  .practiced-list,
   .learned-list {
     margin: 30px 30px 30px 0;
     padding: 10px;
@@ -216,10 +218,11 @@ textarea {
 
   }
 
-  .learned-list-text {
+  .learned-list {
     clear: both;
   }
 
+  .practiced img,
   .learned img {
     margin: 0 60px 10px 10px;
     border: 3px solid  rgb(2, 2, 99);
@@ -345,6 +348,7 @@ textarea {
    ========================================================================== */
 
 @media only screen and (max-width: 1000px) {
+  .practiced-list,
   .learned-list {
     margin: 30px 0 0 0;
     padding: 0;
@@ -354,6 +358,7 @@ textarea {
     flex-flow: row wrap;
   }
 
+  .practiced img,
   .learned img {
     padding: 1px;
     margin: 20px 0 0 0;
