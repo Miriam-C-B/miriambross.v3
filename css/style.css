@@ -204,18 +204,29 @@ textarea {
     margin-bottom: 20px;
   }
 
-  .practiced-list,
+  .learned {
+    height: auto;
+    margin-top: 20px;
+  }
+
   .learned-list {
     margin: 30px 30px 30px 0;
     padding: 10px;
+    display: block;
+
   }
 
-  .practiced img,
+  .learned-list-text {
+    clear: both;
+  }
+
   .learned img {
     margin: 0 60px 10px 10px;
     border: 3px solid  rgb(2, 2, 99);
     padding: 10px;
     float: right;
+    width: 450px;
+    height: auto;
   }
 
   
@@ -333,28 +344,34 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 768px) {
-  /* Style adjustments for viewports that meet the condition */
-  .nav-list li a {
-    font-size: 0.7em;
-  }
-
-  .practiced-list,
+@media only screen and (max-width: 1000px) {
   .learned-list {
     margin: 30px 0 0 0;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-flow: row wrap;
   }
-  
 
-  .practiced img,
   .learned img {
-    margin-right: 0;
     padding: 1px;
-    margin: 20px;
+    margin: 20px 0 0 0;
+    width: 300px;
+    height: auto;
   }
+
+  .learned h2 {
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Style adjustments for viewports that meet the condition */
+  .nav-list li a {
+    font-size: 0.7em;
+  }  
 
 }
 
@@ -377,6 +394,10 @@ textarea {
     width: 90%;
   }
   
+  .copyright {
+    justify-content: center;
+    padding: 15px;
+  }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
