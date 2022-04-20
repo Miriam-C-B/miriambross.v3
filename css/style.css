@@ -230,6 +230,11 @@ textarea {
     height: auto;
   }
 
+  .practiced-list-text ul,
+  .learned-list-text ul {
+    margin: 20px 5px 5px 5px;
+  }
+
   
 
   /* ===== FOOTER ====== */
