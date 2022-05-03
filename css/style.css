@@ -126,6 +126,10 @@ textarea {
     font-size: 1.25em;
   }
 
+  p a {
+    color: #03045E;
+  }
+
   ul li {
     line-height: 2em;
     font-size: 1.25em;
@@ -207,6 +211,11 @@ textarea {
   .learned {
     height: auto;
     margin-top: 20px;
+  }
+
+  .practiced a,
+  .learned a {
+    color: #03045E;
   }
 
   .practiced-list,
