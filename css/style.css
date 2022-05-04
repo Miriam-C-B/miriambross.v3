@@ -244,6 +244,11 @@ textarea {
     margin: 20px 5px 5px 5px;
   }
 
+  .practiced-list-text ul li span,
+  .learned-list-text ul li span {
+    font-style: italic;
+  }
+
   
 
   /* ===== FOOTER ====== */
