@@ -105,7 +105,7 @@ textarea {
     color: #03045E;
     font-family: 'Merienda One', cursive;
     font-size: 1em;
-    margin-bottom: 20px;
+    margin: 40px 0 20px 0;
   }
 
   h3 {
@@ -138,6 +138,11 @@ textarea {
     line-height: 2em;
     font-size: 1.25em;
   }
+
+  ul li span {
+    font-style: italic;
+  }
+
   /* NAV STYLES */
   
   /*nav bar*/
@@ -247,13 +252,13 @@ textarea {
   .learned-list-text ul {
     margin: 20px 5px 5px 5px;
   }
+  
 
-  .practiced-list-text ul li span,
-  .learned-list-text ul li span {
-    font-style: italic;
+  /* ===== Must reads page ====== */
+  .mr-lists li {
+    margin: 20px 5px 5px 5px;
   }
 
-  
 
   /* ===== FOOTER ====== */
   footer {
