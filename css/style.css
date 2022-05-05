@@ -126,6 +126,10 @@ textarea {
     font-size: 1.25em;
   }
 
+  p span {
+    font-style: italic;
+  }
+
   p a {
     color: #03045E;
   }
