@@ -407,31 +407,29 @@ textarea {
     font-size: 0.7em;
   }  
 
+  .copyright {
+    justify-content: center;
+    padding: 15px;
+  }
+
 }
 
 @media only screen and (max-width: 360px) {
   /* Style adjustments for viewports that meet the condition */
-  .complete-nav-bar {
+ .complete-nav-bar {
     justify-content: space-around;
  }
-  
+
   .nav-logo {
     margin: 0 5px 0 5px;
   }
 
   .nav-logo img {
-    margin: 0 0 0 25px;
+    margin: 0;
   }
 
-  .individual-cards {
-    margin:10px 0;
-    width: 90%;
-  }
-  
-  .copyright {
-    justify-content: center;
-    padding: 15px;
-  }
+
+}
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
