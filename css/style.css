@@ -99,20 +99,21 @@ textarea {
     color: #03045E;
     font-family: 'Merienda One', cursive;
     padding: 20px 0;
+    margin-bottom: 10px;
   }
 
   h2 {
     color: #03045E;
     font-family: 'Merienda One', cursive;
     font-size: 1em;
-    margin: 40px 0 20px 0;
+    padding: 15px 0;
+    margin: 10px 0;
   }
 
   h3 {
     color: #03045E;
     font-family: 'Merienda One', cursive;
     font-size: 0.75em;
-    margin-bottom: 15px;
   }
 
   h4 {
