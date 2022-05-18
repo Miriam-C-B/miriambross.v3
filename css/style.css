@@ -123,7 +123,7 @@ textarea {
   }
 
   p {
-    line-height: 2em;
+    line-height: 2.5em;
     font-size: 1.25em;
   }
 
@@ -141,6 +141,10 @@ textarea {
   }
 
   ul li span {
+    font-style: italic;
+  }
+
+  figcaption span {
     font-style: italic;
   }
 
